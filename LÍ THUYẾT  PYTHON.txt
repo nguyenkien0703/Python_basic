@@ -1,0 +1,49 @@
+muốn xuống dòng thì chỉ cầN code print(), muốn in ra các số mà cách nhau print(i,end=" ")
+
+
+
+-->Bạn có thể sử dụng hàm round() để làm tròn các số thực. Cú pháp hàm round:
+lí thuyết :round(number, ndigits) rong đó number là số cần làm tròn, ndigits là số chữ số sau dấu phẩy cần làm tròn.
+ví dụ print(roung(1.23,1)) --> 1.2
+---> duyệt các thành phần trong mảng 
+mảng trong python có thể lưu nhiều kiểu dữ lkiệu khác nhau đồng thời 
+
+name=[1,2,32,3,4,45,456,"kien"]
+for i in name:
+    print(i)
+@@@@@@@@@HỌC VỀ LIST(MẢNG 1 CHIỀU ) TRONG PYTHON https://codelearn.io/learning/python-co-ban/40541
+
++) để thêm một phần tử vào cuối của list(mảng ) bạn dùng hàm append()
+lst = []
+lst.append(4)
+lst.append(3)
+lst.append(6)
+print(lst)
+kết quả sau khi chạy 4 3 6 
+======CÁC HÀM THƯỜNG ĐC DÙN TRONG LIST=====
+	1:hàm len() : trả về số ptu có trong list lst = [2, 3, 1]
+			print(len(lst))--> 3
+
+		Bạn có thể tận dụng hàm len() để hỗ trợ duyệt qua các phần tử trong list:
+	
+		lst = [2, 3, 1]
+		for i in range(len(lst)):
+		    print(lst[i])
+	2: hàm max , min
+		lst = [2, 3, 1]
+		print(max(lst))-->3
+		print(min(lst))-->1
+	3: hàm insert: dùng đề thêm 1 ptu vào 1 vị trí trong list
+
+
+@@@   CHUỖI TRONG PYTHON https://codelearn.io/learning/python-co-ban/40551
+	4: phuương thức isalnum() : dùng để kiếm tra 1 xâu chỉ chứa toàn là kí tự chữ và số hay ko, 
+	kể cẩ dấu cách cũng k dc tính 
+	5: isalpha():dùng để kiểm tra xem 1 xâu chỉ chứa toàn các kí tự chữ hay ko , 
+	kể cẩ dấu cách cũng k dc tính 
+	6: isnumeric() : dùng để kiểm tra xem 1 chuỗi có chứa toàn kí tự số hay ko , 
+	kể cả dấu cách cũng k dc  tính 
+
+
+	CẮT CHUỖI TRONG PYTHON https://codelearn.io/learning/python-co-ban/40554
+HỌC HÀM TRONG PYTHON https://codelearn.io/learning/python-co-ban/40559
